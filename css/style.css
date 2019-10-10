@@ -121,13 +121,13 @@ figure figcaption {
   text-align: center;
   font-family: "Roboto", Arial, sans-serif;
   font-weight: 700;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   text-transform: uppercase;
   /* font-size: 38px; */
 }
 @media screen and (max-width: 768px) {
   #fh5co-aside #fh5co-logo {
-    margin-bottom: 1em;
+    margin-bottom: em;
   }
 }
 #fh5co-aside #fh5co-logo a {
@@ -139,12 +139,14 @@ figure figcaption {
 }
 #fh5co-aside #fh5co-main-menu ul {
   text-align: center;
-  margin: 5;
+  margin: 0;
+  margin-top: 100px;
   padding: 0;
 }
 @media screen and (max-width: 768px) {
   #fh5co-aside #fh5co-main-menu ul {
     margin: 0 0 2em 0;
+    margin-top: 25px;
   }
 }
 #fh5co-aside #fh5co-main-menu ul li {
